@@ -11,7 +11,13 @@
 		<Item Name="TiePie.Lib.exit.vi" Type="VI" URL="../sources/TiePie.Lib.exit.vi"/>
 		<Item Name="TiePie.Lib.init.vi" Type="VI" URL="../sources/TiePie.Lib.init.vi"/>
 	</Item>
+	<Item Name="Dev" Type="Folder">
+		<Item Name="TiePie.Dev.DevGetType.vi" Type="VI" URL="../sources/TiePie.Dev.DevGetType.vi"/>
+	</Item>
 	<Item Name="Examples" Type="Folder">
+		<Item Name="CreateBufferArray.vi" Type="VI" URL="../sources/CreateBufferArray.vi"/>
+		<Item Name="GetBufferVi.vi" Type="VI" URL="../GetBufferVi.vi"/>
+		<Item Name="Test.vi" Type="VI" URL="../sources/Test.vi"/>
 		<Item Name="TiePie.Example.Generator.vi" Type="VI" URL="../sources/TiePie.Example.Generator.vi"/>
 	</Item>
 	<Item Name="Gen" Type="Folder">
@@ -31,12 +37,35 @@
 		<Item Name="TiePie.CheckStatus.vi" Type="VI" URL="../sources/TiePie.CheckStatus.vi"/>
 		<Item Name="TiePie.Info.ListDevices.vi" Type="VI" URL="../sources/TiePie.Info.ListDevices.vi"/>
 	</Item>
+	<Item Name="Lst" Type="Folder">
+		<Item Name="TiePie.Lst.LstDevCanOpen.vi" Type="VI" URL="../sources/TiePie.Lst.LstDevCanOpen.vi"/>
+		<Item Name="TiePie.Lst.LstDevGetTypes.vi" Type="VI" URL="../sources/TiePie.Lst.LstDevGetTypes.vi"/>
+		<Item Name="TiePie.Lst.LstGetCount.vi" Type="VI" URL="../sources/TiePie.Lst.LstGetCount.vi"/>
+		<Item Name="TiePie.Lst.LstOpenDevice.vi" Type="VI" URL="../sources/TiePie.Lst.LstOpenDevice.vi"/>
+		<Item Name="TiePie.Lst.LstRemoveDevice.vi" Type="VI" URL="../sources/TiePie.Lst.LstRemoveDevice.vi"/>
+		<Item Name="TiePie.Lst.LstUpdate.vi" Type="VI" URL="../sources/TiePie.Lst.LstUpdate.vi"/>
+	</Item>
 	<Item Name="SchChTr" Type="Folder"/>
 	<Item Name="Scp" Type="Folder">
+		<Item Name="TiePie.Scp.ScoGetData1Ch - lvhandle.vi" Type="VI" URL="../sources/TiePie.Scp.ScoGetData1Ch - lvhandle.vi"/>
+		<Item Name="TiePie.Scp.ScoGetData1Ch _arraydatapoiter.vi" Type="VI" URL="../sources/TiePie.Scp.ScoGetData1Ch _arraydatapoiter.vi"/>
+		<Item Name="TiePie.Scp.ScoGetData1Ch.vi" Type="VI" URL="../sources/TiePie.Scp.ScoGetData1Ch.vi"/>
+		<Item Name="TiePie.Scp.ScpChGetCoupling.vi" Type="VI" URL="../sources/TiePie.Scp.ScpChGetCoupling.vi"/>
+		<Item Name="TiePie.Scp.ScpChGetEnabled.vi" Type="VI" URL="../sources/TiePie.Scp.ScpChGetEnabled.vi"/>
+		<Item Name="TiePie.Scp.ScpChIsAvailable.vi" Type="VI" URL="../sources/TiePie.Scp.ScpChIsAvailable.vi"/>
+		<Item Name="TiePie.Scp.ScpChSetEnabled.vi" Type="VI" URL="../sources/TiePie.Scp.ScpChSetEnabled.vi"/>
+		<Item Name="TiePie.Scp.ScpConnectionTest.vi" Type="VI" URL="../sources/TiePie.Scp.ScpConnectionTest.vi"/>
 		<Item Name="TiePie.Scp.ScpForceTrigger.vi" Type="VI" URL="../sources/TiePie.Scp.ScpForceTrigger.vi"/>
+		<Item Name="TiePie.Scp.ScpGetConnectionTestData.vi" Type="VI" URL="../sources/TiePie.Scp.ScpGetConnectionTestData.vi"/>
+		<Item Name="TiePie.Scp.ScpGetData2Ch.vi" Type="VI" URL="../sources/TiePie.Scp.ScpGetData2Ch.vi"/>
+		<Item Name="TiePie.Scp.ScpGetMeasurmentMode.vi" Type="VI" URL="../sources/TiePie.Scp.ScpGetMeasurmentMode.vi"/>
 		<Item Name="TiePie.Scp.ScpIsDataReady.vi" Type="VI" URL="../sources/TiePie.Scp.ScpIsDataReady.vi"/>
+		<Item Name="TiePie.Scp.ScpIsRunning.vi" Type="VI" URL="../sources/TiePie.Scp.ScpIsRunning.vi"/>
+		<Item Name="TiePie.Scp.ScpSetMeasureMode.vi" Type="VI" URL="../sources/TiePie.Scp.ScpSetMeasureMode.vi"/>
 		<Item Name="TiePie.Scp.ScpStart.vi" Type="VI" URL="../sources/TiePie.Scp.ScpStart.vi"/>
 		<Item Name="TiePie.Scp.ScpStop.vi" Type="VI" URL="../sources/TiePie.Scp.ScpStop.vi"/>
 	</Item>
-	<Item Name="ScpCh" Type="Folder"/>
+	<Item Name="ScpCh" Type="Folder">
+		<Item Name="TiePie.ScpCh.ScpChIsAvailable.vi" Type="VI" URL="../sources/TiePie.ScpCh.ScpChIsAvailable.vi"/>
+	</Item>
 </Library>

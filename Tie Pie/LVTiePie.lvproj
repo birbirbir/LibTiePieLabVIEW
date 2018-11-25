@@ -25,6 +25,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
+			<Item Name="libtiepie.dll" Type="Document" URL="../../PAN/LabVEW/Tie Pie/bin/libtiepie.dll"/>
 			<Item Name="libtiepie.dll" Type="Document" URL="../bin/libtiepie.dll"/>
 			<Item Name="TiePie.Gen.CfgData.ctl" Type="VI" URL="../sources/TiePie.Gen.CfgData.ctl"/>
 			<Item Name="TiePie.Gen.handle.ctl" Type="VI" URL="../sources/TiePie.Gen.handle.ctl"/>
